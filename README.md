@@ -14,7 +14,8 @@ python3 dataset_augment.py
 
 ⚠️注意⚠️
 - 在爬弹幕的过程中，程序可能因为【不明原因】卡顿。按control+c跳过正在爬的视频即可
-- 由于danmuku.py并不十分的robust【甩锅】，有很少一部分av号出现了以下错误，所以弹幕没有爬下来：
+- 由于danmuku.py并不十分的robust【甩锅】，有很少一部分av号出现了以下错误，所以弹幕没有爬下来。
+  update: 原因找到了，这玩意不能爬分p的视频的弹幕。不过鉴于大多数vtuber都不传分p的视频，这点事情就忽视掉吧...
   ```
   Traceback (most recent call last):
     File "danmuku.py", line 81, in <module>
