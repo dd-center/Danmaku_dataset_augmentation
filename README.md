@@ -1,9 +1,18 @@
 # Danmaku_dataset_augmentation
 爬取b站vtuber视频的弹幕
-- vtuber.txt 存有vtuber名称以及其对应的mid
-- av_data_list 存有每个vtuber发过的视频av号
+- vtuber.txt： 存有vtuber名称以及其对应的mid
+- av_data_list： 存有每个vtuber发过的视频av号
 - danmuku.py From：https://github.com/qq519043202/BILI.git
-- danmaku_dataset 🎉视频弹幕🎉
+- danmaku_dataset： 🎉视频弹幕🎉
+
+用法：
+
+运行
+···
+python3 dataset_augment.py
+···
+即可
+
 
 ⚠️注意⚠️
 - 在爬弹幕的过程中，程序可能因为【不明原因】卡顿。按control+c跳过正在爬的视频即可
