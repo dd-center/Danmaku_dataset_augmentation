@@ -11,12 +11,10 @@
 ```
 python3 dataset_augment.py
 ```    
-即可
-
 
 ⚠️注意⚠️
 - 在爬弹幕的过程中，程序可能因为【不明原因】卡顿。按control+c跳过正在爬的视频即可
-- 由于danmuku.py并不十分robust，有很少一部分av号出现了以下错误，所以弹幕没有爬下来：
+- 由于danmuku.py并不十分的robust【甩锅】，有很少一部分av号出现了以下错误，所以弹幕没有爬下来：
   ```
   Traceback (most recent call last):
     File "danmuku.py", line 81, in <module>
