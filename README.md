@@ -3,11 +3,10 @@
 - vtuber.txt： 存有vtuber名称以及其对应的mid
 - av_data_list： 存有每个vtuber发过的视频av号
 - danmuku.py From：https://github.com/qq519043202/BILI.git
+- dataset_augment.py 运行以爬取av_data_list里的弹幕
 - danmaku_dataset： 🎉视频弹幕🎉
 
 用法：
-
-运行
 ```
 python3 dataset_augment.py
 ```    
